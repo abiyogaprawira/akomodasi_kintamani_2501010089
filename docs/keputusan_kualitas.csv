@@ -1,0 +1,9 @@
+pemeriksaan,jumlah_atau_persen,keputusan
+duplikat,0.0,"tidak ada, tidak ada yang dihapus"
+nama_kosong,1.0,"dipertahankan, dihitung dan dilaporkan"
+koordinat_kosong,0.0,"dipertahankan, perlu dicek manual"
+koordinat_di_luar_kotak,0.0,"dipertahankan, perlu dicek manual di peta"
+kolom_hampir_kosong:desa,100.0,"dipertahankan sesuai struktur dataset, dicatat di laporan"
+kolom_hampir_kosong:bintang,96.9,"dipertahankan sesuai struktur dataset, dicatat di laporan"
+kolom_hampir_kosong:jumlah_kamar,93.8,"dipertahankan sesuai struktur dataset, dicatat di laporan"
+kolom_hampir_kosong:website,93.8,"dipertahankan sesuai struktur dataset, dicatat di laporan"

@@ -1,0 +1,11 @@
+item,status,bukti
+"Sumber data hanya yang diizinkan (OSM Overpass, BPS)",Ya,Lihat docs/provenance.json (endpoint overpass-api.de)
+Tidak memakai OTA/platform pemesanan atau halaman Google Maps,Ya,Tidak ada kode request ke situs tersebut di notebook
+Lisensi ODbL dicatat dan atribusi OSM dicantumkan,Ya,"README.md, laporan, dan keterangan peta"
+"Batas pemakaian API dihormati (query 1-2 kali, ada retry/backoff)",Ya,Fungsi ambil_overpass; berkas mentah dipakai ulang
+User-Agent mengidentifikasi pengambil data,Ya,Variabel HEADERS di notebook
+"Tidak mengambil data kontak pribadi (telepon, email, media sosial)",Ya,Fungsi ratakan tidak mengambil tag tersebut; ada assert di sel kualitas
+Berkas data/raw tidak diubah setelah disimpan,Ya,Hash MD5 di provenance.json
+"Setiap keputusan pembersihan dicatat, tidak ada penghapusan diam-diam",Ya,docs/keputusan_kualitas.csv
+Kendala server Overpass (jika ada) dilaporkan,ISI MANUAL,"ISI MANUAL: tulis kendala yang terjadi, atau 'tidak ada'"
+Verifikasi 10 sampel dilakukan manual (bukan otomatis),ISI MANUAL,docs/sampel_verifikasi_10.csv yang sudah kamu isi
